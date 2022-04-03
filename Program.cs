@@ -1,11 +1,13 @@
-﻿string[] array = {"hello","--2","word","2(-)"};
+﻿string[] array = {"hello","--2","word","(-)"};
+void finder(string[] finded){
 int j=0;
-for(int i=0;i<array.Length;i++){
-    for( j=0;j<array[i].Length;j++){
+for(int i=0;i<finded.Length;i++){
+    for( j=0;j<finded[i].Length;j++){
         
         }
              if(j<=3){
-            Console.WriteLine(array[i]);
+            Console.WriteLine(finded[i]);
     }
 
-}
+}}
+finder(array);
