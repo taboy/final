@@ -15,7 +15,7 @@ void finder(string[] finded)
 
     }
 }
-//finder(array);
+finder(array);
 
 
  void finder2(string[] finded)
